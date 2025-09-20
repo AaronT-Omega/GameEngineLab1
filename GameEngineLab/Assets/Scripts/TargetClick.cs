@@ -7,13 +7,17 @@ public class TargetClick : MonoBehaviour
 {
 
     public int pointsOnClicked;
+    public float targetDecayTime;
+
+    private void Awake()
+    {
+        Destroy(gameObject, targetDecayTime); // If target is not clicked on within a set amount of time, the target disappears
+    }
 
     void OnMouseDown()
     {
-        // Add points to the score manager
+        // If clicked however, it add points to the score through the Game Manager, and destroys the object
         GameManager.Instance.AddPoints(pointsOnClicked);
-
-        // Optional: Destroy the object after clicking
         Destroy(gameObject);
     }
 

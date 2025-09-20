@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedCircleSpawn : CircleSpawner
+public class OrangeCircleSpawn : CircleSpawner
 {
-    public GameObject redTarget; // Gets the prefab for the Red Target
+    public GameObject orangeTarget; // Gets the prefab for the Orange Target
 
     private void Start()
     {
@@ -13,7 +13,7 @@ public class RedCircleSpawn : CircleSpawner
 
     public override TargetClick Spawn()
     {
-        GameObject spawnTarget = Instantiate(redTarget, randomPos, Quaternion.identity); //Creates the actual target at a random position
+        GameObject spawnTarget = Instantiate(orangeTarget, randomPos, Quaternion.identity); //Creates the actual target at a random position
         return spawnTarget.GetComponent<TargetClick>();
     }
 }
