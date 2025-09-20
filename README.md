@@ -40,3 +40,23 @@ Do you think this design pattern is beneficial for this purpose? Explain why or 
 * I think it's pretty good, though I definitely need to practice more to both better understand how to properly use it.
   From what I do know, having a Singleton is just a good thing to have as a central source of the game's mechanics and 
   important data.
+  
+
+
+
+
+
+#### References
+
+* Simpleton script was based off of the Lecture Slides. 
+* Factory Scripts and Game Manager script were heavily based on the Lecture Slides as well, but were obviously changed for the project
+* Other sites used to find code for reference/usage
+* https://discussions.unity.com/t/how-to-detect-mouse-click-on-a-gameobject/59449
+* https://learn.unity.com/course/2d-beginner-game-sprite-flight/tutorial/add-a-scoring-system?version=6.0
+* https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Object.Instantiate.html
+* https://discussions.unity.com/t/random-range-vector3/103279
+
+
+Finally used Google to help figure out any remaining aspects of code.
+Overall though, I'm very sorry in advance and will try to get better with my programming to keep up with the class.
+
